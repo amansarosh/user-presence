@@ -2,19 +2,17 @@
   <h4>Logged in as {{ user.displayName }}</h4>
   <hr>
   <button mat-raised-button color="warn" class="button" (click)="presence.signOut()">Sign Out 👋</button>
-
 </div>
 
-<ng-template #login>
-  <button mat-raised-button (click)="auth.googleSignIn()">Login with Google 👈</button>
-</ng-template>
+  <ng-template #login>
+    <button mat-raised-button (click)="auth.googleSignIn()">Login with Google 👈</button>
+  </ng-template>
 
 <hr>
 
-
 <h4>Aman's Status</h4>
 <div class="img">
-<img src="https://avatars0.githubusercontent.com/u/55336738?s=460&v=4" width="100px">
+  <img src="https://avatars0.githubusercontent.com/u/55336738?s=460&v=4" width="100px">
 </div>
 <app-user uid="SJwDrNmbvRS1PgFOO3I1VTrQ5Wb2"></app-user>
 
