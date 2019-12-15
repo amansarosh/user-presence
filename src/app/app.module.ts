@@ -14,7 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDtWdNZ0V8xS7idW6FecFi-2Hy7EbJH5JQ",
+  apiKey: "xxx",
   authDomain: "firelerts.firebaseapp.com",
   databaseURL: "https://firelerts.firebaseio.com",
   projectId: "firelerts",
