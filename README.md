@@ -1,6 +1,8 @@
 # Firelerts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This Project has Angular Material installed.
+Angular Firebase is also added in this project.
 
 ## Development server
 
